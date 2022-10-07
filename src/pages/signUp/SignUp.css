@@ -1,0 +1,47 @@
+.mainView {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputText {
+    height: 20px;
+    width: 200px;
+    
+  }
+  .inputView{
+      height: 50px;
+      width: 300px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .innerView {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border-width: 5px;
+    align-items: center;
+    justify-content: center;
+    border-color: red;
+    background-color: rgba(188, 143, 143, 0.4);
+  }
+  .loginButton {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    background-color: blue;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .loginText {
+    font-size: 15px;
+    color: white;
+  }
+  
